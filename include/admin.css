@@ -1,0 +1,295 @@
+body{
+	margin: 0px auto;
+	padding: 0px auto;
+}
+
+#wrapper{
+	width: 100%;
+	height: 780px;
+	background-image: url('../img/adPanel.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	float: left;
+}
+
+#header{
+	position: absolute;
+	height: 58px;
+	width: 100%;
+	background-color: rgba(52, 73, 94, 0.1);
+}
+
+#header table{
+	width: 100%;
+	height: 50px;
+	border: none;
+}
+
+.name{
+	color: #fff;
+	font-size: 20px;
+	text-align: left;
+	font-family: Arial;
+	padding-left: 30px;
+	font-weight: bold;
+}
+
+
+#header ul{
+	list-style: none;
+	display: block;
+}
+
+#header table ul li{
+	display: inline-block;
+	margin-left: 15px;
+	margin-right: 5px;
+	padding: 15px;
+	padding-top: 2px;
+	border: none;
+	width: 120px;
+	font-weight: bold;
+	text-align: center;
+	position: relative;
+	cursor: pointer;
+	z-index: 999;
+}
+
+#header ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+#header ul li::before{
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 0;
+	margin-bottom: 6px;
+	background-color: rgba(39, 174, 96, 1);
+	left: 0;
+	bottom: 0;
+	transition: all 0.3s;
+	z-index: -1;
+}
+
+#header ul li:hover::before{
+	height: 100%;
+}
+
+#header ul li:hover a{
+	color: #fff;
+}
+
+#con{
+	width: 100%;
+	height: 685px;
+	background-color: rgba(52, 73, 94, 0.1);
+}
+
+#leftPanel{
+	margin-top: 58px; 
+	width: 20%;
+	height: 608px;
+	border: none;
+	float: left;
+	background-color: rgba(52, 73, 94, 0.1);
+}
+
+#leftPanel table{
+	border-radius: 5px;
+	width: 250px;
+	margin-top: 40px;
+	background-color: rgba(52, 73, 94, 0.7);
+}
+
+#leftPanel table th{
+	padding-left: 8px;
+	color: #fff;
+	border-radius: 5px;
+	font-size: 20px;
+	text-align: left;
+	background-color: #2ECC71;
+}
+
+#leftPanel table a{
+	padding-left: 8px;
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+}
+
+#leftPanel table a:hover{
+	color: yellow;
+}
+
+#rightPanel{
+	margin-top: 58px;
+	width: 80%;
+	height: 608px;
+	border: none;
+	background-color: rgba(52, 73, 94, 0.1);
+	float: left;
+	
+}
+
+#content{
+	border: none;
+	margin: 8px;
+	height: 590px;
+	margin-right: 15px;
+	border-radius: 10px;
+	background-color: rgba(52, 73, 94, 0.4);
+}
+
+#info table{
+	margin-top: 5px;
+	margin-left: 5px;
+	border: none;
+	width: 98%;
+	padding: 5px;
+	padding-top: 10px;
+}
+
+#info table th{
+	border-radius: 4px;
+	padding-left: 8px;
+	width: 100%;
+	color: #fff;
+	font-size: 25px;
+	text-align: left;
+	background-color: #2ECC71;
+}
+
+input[type="text"], input[type="password"]{
+	height: 32px;
+	width: 270px;
+	font-size: 18px;
+	background-color: #fff;
+	padding-left: 30px;
+	margin-bottom: 10px;
+	border: none;
+	border-radius: 4px;
+}
+
+.regBtn{
+	padding: 15px 25px;
+	color: #fff;
+	background-color: #2ECC71;
+	border: none;
+	border-radius: 4px;
+	border-right: 4px solid #27AE60;
+	border-bottom: 4px solid #27AE60;
+	font-weight: bold;
+	font-size: 18px; 
+}
+
+.regBtn:hover{
+	background-color: #27AE60;
+	border-right: 4px solid #2ECC71;
+	border-bottom: 4px solid #2ECC71;
+}
+
+#aboutme{
+	width: 97%;
+	height: 300px;
+	padding-left: 20px;
+	padding-top: 15px;
+	border: none;
+	color: white;
+	font-size: 25px;
+}
+
+#profpic{
+	border: 6px solid #fff;
+	border-radius: 15px;
+	width: 250px;
+	height: 250px;
+	margin-right: 28px;
+}
+
+#profpic img{
+	width: 100%;
+	height: 100%;
+}
+
+#timeline{
+	margin-top: 10px;
+	border: none;
+	height: 180px;
+	padding: 20px;
+	background-color: rgba(52, 73, 94, 0.8)
+}
+
+#timeline p{
+	font-weight: 500;
+	text-align: center;
+	color: #fff;
+	font-family: Arial;
+	font-size: 24px;
+}
+
+#footer{
+	margin: 0px auto;
+	width: 100%;
+	height: 90px;
+	float: left;
+}
+
+#footcon{
+	color: white;
+	margin-left: 5px;
+	width: 99%;
+	height: 95px;
+	padding: 0px auto;
+	border: none;
+	border-radius: 10px;
+	background-color: rgba(52, 73, 94, 0.9);
+}
+
+#block{
+	margin-top: 0px;
+	padding: 0px auto; 
+	margin-left: 10px;
+	height: 90px;
+	width: 10px;
+	border: none;
+	background-color: #2ECC71;
+	float: left;
+}
+
+#footcon ul{
+	list-style: none;
+	display: block;
+	margin: 0px auto;
+	padding: 0px auto;
+	border: none;
+	width: 600px;
+}
+
+#footcon ul li{
+	display: inline-block;
+	margin: 5px;
+	margin-right: 15px;
+	padding: 10px;
+	padding-top: 0px;
+	border: none;
+	width: 75px;
+	height: 20px;
+	font-weight: bold;
+	text-align: center;
+	cursor: pointer;
+}
+
+#footcon ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+#footcon ul li a:hover{
+	color: yellow;
+	text-decoration: none;
+	font-size: 15px;
+}

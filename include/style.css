@@ -1,0 +1,217 @@
+body{
+	margin: 0 auto;
+	padding: 0 auto;
+	font-family: "proxima nova";
+}
+
+/*Index Page CSS*/
+
+#hwrapper{
+	width: 100%;
+	height: 768px;
+	background-image: url('../library.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	float: left;
+}
+
+#header{
+	position: absolute;
+	height: 70px;
+	width: 100%;
+	background-color: rgba(52, 73, 94, 0.3);
+}
+
+#header ul{
+	list-style: none;
+	display: block;
+}
+
+#header ul li{
+	display: inline-block;
+	margin-left: 15px;
+	padding: 8px;
+	border: none;
+	width: 120px;
+	font-weight: bold;
+	text-align: center;
+	position: relative;
+	cursor: pointer;
+	z-index: 999;
+}
+
+#header ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+#header ul li::before{
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 0;
+	background-color: rgba(39, 174, 96, 1);
+	left: 0;
+	bottom: 0;
+	transition: all 0.3s;
+	z-index: -1;
+}
+
+#header ul li:hover::before{
+	height: 100%;
+}
+
+#header ul li:hover a{
+	color: #fff;
+}
+
+#container{
+	margin-top: 300px;
+	text-align: center;
+}
+
+#container p{
+	margin-top: 0px auto;
+	height: 80px;
+	color: white;
+	font-size: 50px;
+	font-family: Arial;
+	text-align: center;
+}
+
+
+/*Registration Page CSS*/
+
+#regwrapper{
+	width: 100%;
+	height: 768px;
+	background-image: url('../img/regbg.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	float: left;
+}
+
+#content{
+	width: 400px;
+	height: 500px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 150px;
+	background-color: rgba(52, 73, 94, 0.6);
+	border-radius: 4px;
+	font-size: 18px;
+}
+
+#content img{
+	width: 120px;
+	height: 120px;
+	margin-top: -60px;
+	margin-bottom: 25px;
+}
+
+input[type="text"], input[type="password"]{
+	height: 32px;
+	width: 270px;
+	font-size: 18px;
+	background-color: #fff;
+	padding-left: 30px;
+	margin-bottom: 10px;
+	border: none;
+	border-radius: 4px;
+}
+
+.regBtn{
+	padding: 15px 25px;
+	color: #fff;
+	background-color: #2ECC71;
+	border: none;
+	border-radius: 4px;
+	border-right: 4px solid #27AE60;
+	border-bottom: 4px solid #27AE60;
+	font-weight: bold;
+	font-size: 18px; 
+}
+
+#content p{
+	color: #fff;
+}
+#content a{
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#content a:hover{
+	color: yellow;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.regBtn:hover{
+	background-color: #27AE60;
+	border-right: 4px solid #2ECC71;
+	border-bottom: 4px solid #2ECC71;
+}
+
+/*Login Page CSS*/
+
+#logwrapper{
+	width: 100%;
+	height:768px;
+	background-image: url('../logbg.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	float: left;
+}
+
+#logcontent{
+	width: 400px;
+	height: 350px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 200px;
+	background-color: rgba(52, 73, 94, 0.6);
+	border-radius: 4px;
+	font-size: 18px;
+}
+
+#logcontent img{
+	width: 120px;
+	height: 120px;
+	margin-top: -60px;
+	margin-bottom: 25px;
+}
+
+#logcontent p{
+	color: #fff;
+}
+#logcontent a{
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#logcontent a:hover{
+	color: yellow;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.logBtn{
+	padding: 15px 25px;
+	color: #fff;
+	background-color: #2ECC71;
+	border: none;
+	border-radius: 4px;
+	border-right: 4px solid #27AE60;
+	border-bottom: 4px solid #27AE60;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.logBtn:hover{
+	background-color: #27AE60;
+	border-right: 4px solid #2ECC71;
+	border-bottom: 4px solid #2ECC71;
+}

@@ -1,0 +1,33 @@
+body
+{	margin: 0px auto;
+	padding: 0px auto;
+}
+.container{
+	margin-top: 380px;
+	text-align: center;
+}
+
+a{
+	text-decoration: inherit;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.button{
+	color: #eee;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 29px;
+	text-align: center;
+	border: 2px solid #2ECC71;
+	border-radius: 4px;
+	padding: 5px 40px;
+	transition-duration: 400ms;
+	position: relative;
+	background-color: rgba(52, 73, 94, 0.7);
+}
+
+.button:hover{
+	background-color: rgba(52, 73, 94, 0.9);;
+	color: #fff;
+}
